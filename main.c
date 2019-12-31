@@ -97,6 +97,7 @@ void buttontest(void);
 void showbmp(void);
 void dumpir(void);
 void snakemenu(void);
+void helloworld(void);
 
 static const struct menuitem main_menu[] = {
 	{ .label = "Browse program", .cb = program, },
@@ -104,6 +105,7 @@ static const struct menuitem main_menu[] = {
 	{ .label = "Show BMP",       .cb = showbmp, },
 	{ .label = "Dump IR data",   .cb = dumpir, },
 	{ .label = "Snake",          .cb = snakemenu, },
+	{ .label = "Hello World!",   .cb = helloworld, }
 };
 
 void __noreturn
